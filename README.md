@@ -3,7 +3,7 @@
 ## Description: 
 
 The discussion for the Greatest Of All Time in the National Basketball Association has always been up in the air and is vital for barbershop conversations and debates. Although this is an objective topic due to the intangibles, arguments are supported by statistics and statistics are undeniable. **The GOAT** is a data visualization of the top ten scorers in NBA history, representing statistics for each player such as total number of points scored per year, their average points/rebounds/assists per game for those specific years, and individual/team awards. 
-**THE GOAT** will be using JS as its primary language 
+**THE GOAT** will be using JS as its primary language and use the D3.js lib to create bar charts.
 
 <p align="center">
   <img height="200" src="https://basketballforever.com/wp-content/uploads/2019/03/goat.jpg">
@@ -18,6 +18,10 @@ In **The GOAT**, users will be able to :
 - [ ] View the specific player's points, assists, and rebounds per game, and also their total amount of those stats per year/career
 - [ ] Be able to remove that specific NBA player's statistics
 
+
+## Wireframe 
+
+<img src="https://wireframe.cc/Xj7Nro">
 
 ## Technologies, libaries and APIs 
 
