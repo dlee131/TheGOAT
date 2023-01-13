@@ -6,7 +6,7 @@ The discussion for the Greatest Of All Time in the National Basketball Associati
 **THE GOAT** will be using JS as its primary language and use the D3.js lib to create bar charts.
 
 <p align="center">
-  <img height="200" src="https://basketballforever.com/wp-content/uploads/2019/03/goat.jpg">
+  <img height="150" src="https://basketballforever.com/wp-content/uploads/2019/03/goat.jpg">
 </p>
 
 ## Functionality & MVPs
@@ -41,18 +41,21 @@ In **The GOAT**, users will be able to :
 - Use D3 to create dynamic barcharts for the statistics of the players
 
 3. Tuesday
-- ????
+- Work on making the project neat and all pretty through CSS 
 
 4. Wednesday
-- Work on making the project neat and all pretty through CSS 
+-... 
 
 5. Thursday Morning 
 - Last minute checkup on to see if everything works, debug if necessary and deploy to GitHub pages
 
 
+
+
+
 ## Live 
 
-See the app live! [here]()!
+See the app live! [here](https://dlee131.github.io/TheGOAT/)!
 
 
 
