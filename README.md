@@ -21,7 +21,7 @@ In **The GOAT**, users will be able to :
 
 ## Wireframe 
 
-<img src="https://wireframe.cc/Xj7Nro">
+![alt text](https://wireframe.cc/Xj7Nro)
 
 ## Technologies, libaries and APIs 
 
