@@ -21,8 +21,7 @@ In **The GOAT**, users will be able to :
 
 ## Wireframe 
 
-<img width="938" alt="Screen Shot 2023-01-13 at 11 41 08 PM" src="https://user-images.githubusercontent.com/117231532/212451234-ad2a100e-a182-4db9-84b9-b5715391ec4e.png">
-
+<img width="928" alt="Screen Shot 2023-01-13 at 11 46 53 PM" src="https://user-images.githubusercontent.com/117231532/212453257-2a5dcba9-2264-472e-b5df-71e2c7b31823.png">
 
 
 ## Technologies, libaries and APIs 
