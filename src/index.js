@@ -1,9 +1,7 @@
-// import Example from './scripts/example';
+// import Example from './scripts/script'
 
-
-// document.addEventListener("DOMContentLoaded", () => {
+// document.addEventListener('DOMContentLoaded', () => {
 //     const root = document.querySelector('#root')
-//     //console.log('Hello World')
-
+   
 //     new Example(root);
-// })
+//  })
