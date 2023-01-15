@@ -1,13 +1,12 @@
 body {
-    background-image: url("https://i.pinimg.com/564x/55/5e/e3/555ee3aeeacbecf979f36f90858a1890.jpg");
-    background-repeat: no-repeat;
+    background-image: url("/assets/Background.png");   
     background-size: 100%;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
     color: white;
-    font-family: ars-maquette-web, sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-header{
+header {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -15,7 +14,7 @@ header{
 
 
 header .left-header{
-    font-family: 'Times New Roman', cursive;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 70px;
     margin-left: auto;
     margin-top: 0.8rem;
@@ -34,4 +33,11 @@ header .right-header{
     height: 40px;
     margin-top: 3px;
     margin-right: 10px;
+}
+
+#circle {
+    background: lightblue;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
