@@ -17,9 +17,9 @@ header {
 
 header .left-header {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-  font-size: 70px;
+  font-size: 100px;
   margin-left: auto;
-  margin-top: 0.8rem;
+  margin-top: 1rem;
 }
 
 header .right-header {
@@ -36,9 +36,40 @@ header .right-header {
   margin-right: 10px;
 }
 
-#circle {
-  background: lightblue;
-  border-radius: 50%;
-  width: 100px;
+.icons {
+  display: flex;
+  margin-right: 30em;
+}
+
+.icon-player {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  margin: 10px;
+}
+
+.player-image-left {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border: 5px solid transparent;
+}
+
+.player-image-right {
+  display: flex;
+  flex-direction: column;
+  align-items: right;
+  border: 5px solid transparent;
+}
+
+.player-name {
   height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+  margin: 20px;
+}
+
+.name {
+  font-size: 15px;
+  margin-bottom: 15px;
 }
