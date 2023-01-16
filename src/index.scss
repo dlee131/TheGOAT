@@ -35,7 +35,7 @@ header .right-header{
 
 .icons {
     display: flex;
-    margin-right: 30em;
+    margin-right: 10em;
 }
 
 .icon-player {
@@ -48,7 +48,7 @@ header .right-header{
     display: flex;
     flex-direction: column;
     align-items: left;
-    border: 5px solid transparent;
+
 }
 
 // not needed anymore because of grid column
@@ -56,7 +56,7 @@ header .right-header{
     display: flex;
     flex-direction: column;
     align-items: right;
-    border: 5px solid transparent;
+    
 }
 
 .player-name {
