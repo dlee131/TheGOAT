@@ -6,7 +6,7 @@ body {
   background-size: 100%;
   background-repeat: no-repeat;
   color: white;
-  font-family: "Courier New", Courier, monospace;
+  font-family: sans-serif;
 }
 
 header {
@@ -36,14 +36,9 @@ header .right-header {
   margin-right: 10px;
 }
 
-.icons {
-  display: flex;
-  margin-right: 10em;
-}
-
 .icon-player {
   display: grid;
-  grid-template-columns: 300px 300px;
+  grid-template-columns: 150px 150px;
   margin: 10px;
 }
 
@@ -59,15 +54,26 @@ header .right-header {
   align-items: right;
 }
 
+.player-name:hover {
+  opacity: 0.3;
+  transition: 2s;
+  cursor: pointer;
+  background-color: white;
+}
+
 .player-name {
   height: 100px;
   width: 100px;
-  border-radius: 50%;
+  border-radius: 50px;
   transition: all 0.3s ease;
   margin: 20px;
 }
 
-.name {
-  font-size: 15px;
-  margin-bottom: 15px;
+.hide {
+  display: none;
+}
+
+.player-name:hover + .hide {
+  display: block;
+  color: white;
 }
