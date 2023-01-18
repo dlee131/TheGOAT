@@ -13,7 +13,7 @@ header {
 }
 
 header .left-header{
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Bradley Hand';
     font-size: 100px;
     margin-left: auto;
     margin-top: 1rem;
@@ -37,7 +37,7 @@ header .right-header{
 .icon-player {
     display: grid;
     grid-template-columns: 150px 150px;
-    margin: 10px; 
+    margin: 0px; 
 }
 
 .player-image-left {
@@ -46,7 +46,6 @@ header .right-header{
     align-items: left;
 }
 
-// not needed anymore because of grid column
 .player-image-right {
     display: flex;
     flex-direction: column;
@@ -71,6 +70,7 @@ header .right-header{
 
 .hide {
     display: none;
+    font-family: fantasy;
 }
 
 .player-name:hover + .hide {

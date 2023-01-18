@@ -1,0 +1,85 @@
+{
+    "Kareem": {
+        "name": "Kareem Abdul-Jabbar",
+        "height": "218cm",
+        "totalpts": "38387",
+        "totalasts": "5660",
+        "totalrbs": "17440",
+        "games": "1560",
+        "pic": "https://www.emmys.com/sites/default/files/styles/bio_pics_detail/public/bios/Kareem-Abdul-Jabbar-450x600.jpg?itok=NwAzWFxj"
+            },
+    "Lebron": {
+        "name": "Lebron James",
+        "height": "203cm",
+        "totalpts": "38072",
+        "totalasts": "10282",
+        "totalrbs": "10496",
+        "games": "1400",
+        "pic": "https://people.com/thmb/1PKepdl0yHQDEnVT0NcnmnTBuNQ=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2)/lebron-james-b73c66eb3444477c8896a44a3e39b671.jpg"
+            },
+    "Karl": {
+        "name": "Karl Malone",
+        "height": "206cm",
+        "totalpts": "36928",
+        "totalasts": "5248",
+        "totalrbs": "14968",
+        "games": "1476",
+        "pic": "https://static.wikia.nocookie.net/nba/images/1/1e/Karl_Malone_1.jpg/revision/latest/scale-to-width-down/220?cb=20120528235829"
+            },
+    "Kobe": {
+        "name": "Kobe Bryant",
+        "height": "198cm",
+        "totalpts": "33643",
+        "totalasts": "6306",
+        "totalrbs": "7047",
+        "pic": "https://dynaimage.cdn.cnn.com/cnn/digital-images/org/98224ac3-aedc-44d4-9ad2-a6b8b0c06e2c.jpg"
+            },
+    "Michael": {
+        "name": "Michael Jordan",
+        "height": "198cm",
+        "totalpts": "32292",
+        "totalasts": "5633",
+        "totalrbs": "6672",
+        "pic": "https://static01.nyt.com/images/2020/05/16/business/16JORDAN-01sub/16JORDAN-01sub-mediumSquareAt3X.jpg"
+            },
+    "Dirk": {
+        "name": "Dirk Nowitzki",
+        "height": "213cm",
+        "totalpts": "31560",
+        "totalasts": "3651",
+        "totalrbs": "11489",
+        "pic": "https://www.gannett-cdn.com/-mm-/fe1d1337af30de09589968eee29bbb86972fb437/c=272-165-2441-3057/local/-/media/2017/03/07/USATODAY/USATODAY/636244960868675219-USATSI-9055920.jpg"
+            },
+    "Wilt": {
+        "name": "Wilt Chamberlain",
+        "height": "216cm",
+        "totalpts": "31419",
+        "totalasts": "4643",
+        "totalrbs": "23924",
+        "pic": "https://static.wikia.nocookie.net/nba/images/4/43/Wilt_Chamberlain_Lakers.jpg/revision/latest?cb=20210529043558"
+            },
+    "Shaquille": {
+        "name": "Shaquille O'Neal",
+        "height": "216cm",
+        "totalpts": "28596",
+        "totalasts": "13099",
+        "totalrbs": "3026",
+        "pic": "https://i.ytimg.com/vi/ZTk0fwsJ6qo/maxresdefault.jpg"
+            },
+    "Carmelo": {
+        "name": "Carmelo Anthony",
+        "height": "201cm",
+        "totalpts": "28289",
+        "totalasts": "3422",
+        "totalrbs": "7808",
+        "pic": "https://cdn-wp.thesportsrush.com/2021/09/c619c228-untitled-design-33.jpg"
+            },
+    "Moses": {
+        "name": "Moses Malone",
+        "height": "208cm",
+        "totalpts": "27409",
+        "totalasts": "16212",
+        "totalrbs": "1796",
+        "pic": "https://media.gq.com/photos/55f7333e2de2e54e38605818/1:1/w_1326,h_1326,c_limit/moses-malone-sixers.jpg"
+            }                                
+}
