@@ -36,7 +36,7 @@ In **The GOAT**, users will be able to :
 ## Implementation Timeline
 
 1. Friday Afternoon and Weekend
-- Set up the project, download webpack, learn and implement the resources from the Chart.js library to add charts/graphs
+- Set up the project, download webpack, learn and implement the resources from the Chart.js library to add charts/graphs. Work on HTML, get header and icons to later click on for interaction.
 
 2. Monday
 - Use Chart.js to create dynamic barcharts for the statistics of the players
@@ -49,8 +49,6 @@ In **The GOAT**, users will be able to :
 
 5. Thursday Morning 
 - Last minute checkup on to see if everything works, debug if necessary and deploy to GitHub pages
-
-
 
 
 
