@@ -33,6 +33,13 @@ header .right-header{
     margin-right: 10px;
 }
 
+.chart {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
 
 .icon-player {
     display: grid;
@@ -77,4 +84,5 @@ header .right-header{
     display: block;
     color: white;
 }
+
 

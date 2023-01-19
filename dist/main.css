@@ -36,6 +36,14 @@ header .right-header {
   margin-right: 10px;
 }
 
+.chart {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
 .icon-player {
   display: grid;
   grid-template-columns: 150px 150px;

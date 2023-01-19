@@ -1,3 +1,127 @@
-document.addEventListener("DOMContentLoaded", () => {
-    
+import Chart from 'chart.js/auto';
+
+// fetch('./players.json')
+// .then((response) => response.json())
+// .then(data => {
+
+
+//     var context = document.getElementById("PlayerChart");
+//     // console.log(data["Kareem"]["totalpts"])
+   
+//     var CareerChart = new Chart(context, {
+        
+//         type: 'bar',
+//         data: {
+//             labels: ["Lebron James"],
+//             datasets: [{
+//                 label: 'Points Per Game',
+//                 data: data["Lebron James"]["ppg"],
+//                 backgroundColor: 'rgba(255, 0, 255, .2)',
+//                 borderColor: 'rgba(255, 0, 255, 1)',
+//                 borderWidth: 3
+//             },
+//             {
+//                 label: 'Assists Per Game',
+//             data: data["Lebron James"]["apg"],
+//             backgroundColor: 'rgba(0, 0, 255, 0.2)',
+//             borderColor: 'rgba(0, 0, 255, 1)',
+//             borderWidth: 3
+//             },
+//             {
+//                 label: 'Rebounds Per Game',
+//             data: data["Lebron James"]["rpg"],
+//             backgroundColor: 'rgba(99, 255, 132 , 0.2)',
+//             borderColor: 'rgba(99, 255, 132, 1)',
+//             borderWidth: 3
+//             },
+//             ]  
+//         },
+//     // options: {
+//     //     scales: {
+//     //         x: [{
+//     //             scaleLabel: {
+//     //                 display: true,
+//     //             },
+//     //         }],
+//     //         y: [{
+//     //             ticks: {
+//     //                 beginAtZero: true,
+//     //                 stepValue: 10,
+//     //                 max: 35,
+//     //             }
+//     //         }]
+//     //     }
+//     // }
+// })
+// });
+// document.querySelector("#player")
+let playerNames = document.querySelectorAll(".player-name");
+playerNames.forEach(playerName => {
+    playerName.addEventListener('click', function() {
+    // if (!event.target.matches('#option1')) return;
+    // event.preventDefault(); 
+
+    let playerValue = this.dataset.value;
+    // console.log(playerValue);
+    // let playerData = data["playerName"];
+    // console.log(playerName)
+    // myChart.data.datasets[0].data = playerData["apg"];
+    // myChart.update();
+    fetch('./players.json')
+    .then((response) => response.json())
+    .then(data => {
+        
+        var context = document.getElementById("PlayerChart");
+       
+       let chartStatus = Chart.getChart("PlayerChart")
+        if (chartStatus != undefined) {
+            chartStatus.destroy()
+        }
+        var CareerChart = new Chart(context, {
+            
+
+            type: 'bar',
+            data: {
+                labels: [playerValue],
+                datasets: [{
+                    label: 'Points Per Game',
+                    data: data[playerValue]["ppg"],
+                    backgroundColor: 'rgba(255, 0, 255, .2)',
+                    borderColor: 'rgba(255, 0, 255, 1)',
+                    borderWidth: 3
+                },
+                {
+                    label: 'Assists Per Game',
+                data: data[playerValue]["apg"],
+                backgroundColor: 'rgba(0, 0, 255, 0.2)',
+                borderColor: 'rgba(0, 0, 255, 1)',
+                borderWidth: 3
+                },
+                {
+                    label: 'Rebounds Per Game',
+                data: data[playerValue]["rpg"],
+                backgroundColor: 'rgba(99, 255, 132 , 0.2)',
+                borderColor: 'rgba(99, 255, 132, 1)',
+                borderWidth: 3
+                },
+                ]  
+            },
+        options: {
+            scales: {
+                xAxes: [{
+                        display: true,
+                        labelString: 'Player'
+                }],
+                yAxes: [{
+                    ticks: {
+                        beginAtZero: true,
+                        stepValue: 10,
+                        max: 35,
+                    }
+                }]
+            }
+        }
+    })
+    });
+})
 })
