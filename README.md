@@ -26,7 +26,7 @@ In **The GOAT**, users will be able to :
 
 ## Technologies, libaries and APIs 
 
-- D3.js
+- Chart.js
 - Javascript
 - HTML
 - CSS

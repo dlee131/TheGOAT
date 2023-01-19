@@ -55,6 +55,9 @@ import Chart from 'chart.js/auto';
 // })
 // });
 // document.querySelector("#player")
+Chart.defaults.font.size = 18;
+Chart.defaults.font.family = "Bradley Hand"
+// Chart.defaults.font.weight = "undefined"
 let playerNames = document.querySelectorAll(".player-name");
 playerNames.forEach(playerName => {
     playerName.addEventListener('click', function() {
@@ -89,42 +92,42 @@ playerNames.forEach(playerName => {
                     data: data[playerValue]["mpg"],
                     backgroundColor: 'rgba(255, 165, 0, 0.7)',
                     borderColor: 'rgba(255, 165, 0, 1)',
-                    borderWidth: 3
+                    borderWidth: 5
                     },
                     {
                     label: 'Points',
                     data: data[playerValue]["ppg"],
                     backgroundColor: 'rgba(255, 0, 255, 0.7)',
                     borderColor: 'rgba(255, 0, 255, 1)',
-                    borderWidth: 3
+                    borderWidth: 5
                 },
                 {
                     label: 'Assists',
                 data: data[playerValue]["apg"],
                 backgroundColor: 'rgba(0, 0, 255, 0.7)',
                 borderColor: 'rgba(0, 0, 255, 1)',
-                borderWidth: 3
+                borderWidth: 5
                 },
                 {
                     label: 'Rebounds',
                 data: data[playerValue]["rpg"],
                 backgroundColor: 'rgba(99, 255, 132 , 0.7)',
                 borderColor: 'rgba(99, 255, 132, 1)',
-                borderWidth: 3
+                borderWidth: 5
                 },
                 {
                     label: 'Field Goals Made',
                 data: data[playerValue]["fgm"],
                 backgroundColor: 'rgba(255, 0, 0, 0.7)',
                 borderColor: 'rgba(255, 0, 0, 1)',
-                borderWidth: 3
+                borderWidth: 5
                 },
                 {
                     label: 'Free Throws Made',
                 data: data[playerValue]["ftm"],
                 backgroundColor: 'rgba(255, 255, 255, 0.7)',
                 borderColor: 'rgba(255, 255, 255, 1)',
-                borderWidth: 3
+                borderWidth: 5
                 },
                 ]  
             },
@@ -132,7 +135,10 @@ playerNames.forEach(playerName => {
             plugins: {
                 legend: {
                     labels: {
-                        color: "white"
+                        color: "white",
+                        fontFamily: 'sans-serif',
+                        fontSize: 30,
+                        fontStyle: 'bold',
                     }
                 }
             },
@@ -159,4 +165,5 @@ playerNames.forEach(playerName => {
     })
     });
 })
+
 })

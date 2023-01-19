@@ -50,7 +50,7 @@ header .right-header {
   grid-template-rows: repeat(2, 145px);
   grid-template-columns: repeat(5, 150px);
   justify-content: center;
-  margin: 0px;
+  margin: -10px;
 }
 
 .player-image-left {
@@ -67,7 +67,7 @@ header .right-header {
 
 .player-name:hover {
   opacity: 0.3;
-  transition: 2s;
+  transition: 0.3s;
   cursor: pointer;
   background-color: white;
 }

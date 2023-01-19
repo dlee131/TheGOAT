@@ -48,9 +48,15 @@ header .right-header{
     grid-template-columns: repeat(5, 150px);
     // grid-template-columns: 150px 150px;
     justify-content: center;
-    margin: 0px; 
+    margin: -10px; 
 }
 
+// .icon-player {
+//     display: grid;
+// grid-template-rows: flex;
+//     justify-content: center;
+//     margin: 0px; 
+// }
 .player-image-left {
     display: flex;
     flex-direction: column;
@@ -66,7 +72,7 @@ header .right-header{
 
 .player-name:hover {
     opacity: 0.3;
-    transition: 2s;
+    transition: .3s;
     cursor: pointer;
     background-color: white;
 }
