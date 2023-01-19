@@ -83,7 +83,15 @@ playerNames.forEach(playerName => {
             type: 'bar',
             data: {
                 labels: [playerValue],
-                datasets: [{
+                datasets: [
+                    {
+                        label: 'Minutes Per Game',
+                    data: data[playerValue]["mpg"],
+                    backgroundColor: 'rgba(255, 165, 0, 0.2)',
+                    borderColor: 'rgba(255, 165, 0, 1)',
+                    borderWidth: 3
+                    },
+                    {
                     label: 'Points Per Game',
                     data: data[playerValue]["ppg"],
                     backgroundColor: 'rgba(255, 0, 255, .2)',
@@ -102,6 +110,20 @@ playerNames.forEach(playerName => {
                 data: data[playerValue]["rpg"],
                 backgroundColor: 'rgba(99, 255, 132 , 0.2)',
                 borderColor: 'rgba(99, 255, 132, 1)',
+                borderWidth: 3
+                },
+                {
+                    label: 'Field Goals Made Per Game',
+                data: data[playerValue]["fgm"],
+                backgroundColor: 'rgba(255, 0, 0, 0.2)',
+                borderColor: 'rgba(255, 0, 0, 1)',
+                borderWidth: 3
+                },
+                {
+                    label: 'Free Throws Made Per Game',
+                data: data[playerValue]["ftm"],
+                backgroundColor: 'rgba(255, 255, 255, 0.2)',
+                borderColor: 'rgba(255, 255, 255, 1)',
                 borderWidth: 3
                 },
                 ]  
