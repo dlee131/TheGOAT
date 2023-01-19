@@ -1,6 +1,6 @@
 body {
-    background-image: url("/assets/Background.png");   
-    background-size: 100%;
+    background-image: url("/assets/Bryantlogo.jpeg");   
+    background-size: 1515px 950px;
     background-repeat: no-repeat;
     color: white;
     font-family: sans-serif;
@@ -34,6 +34,7 @@ header .right-header{
 }
 
 .chart {
+    font-family: 'Bradley Hand';
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -43,7 +44,7 @@ header .right-header{
 
 .icon-player {
     display: grid;
-    grid-template-rows: repeat(2, 150px);
+    grid-template-rows: repeat(2, 145px);
     grid-template-columns: repeat(5, 150px);
     // grid-template-columns: 150px 150px;
     justify-content: center;

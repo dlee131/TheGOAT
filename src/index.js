@@ -87,60 +87,73 @@ playerNames.forEach(playerName => {
                     {
                         label: 'Minutes',
                     data: data[playerValue]["mpg"],
-                    backgroundColor: 'rgba(255, 165, 0, 0.2)',
+                    backgroundColor: 'rgba(255, 165, 0, 0.7)',
                     borderColor: 'rgba(255, 165, 0, 1)',
                     borderWidth: 3
                     },
                     {
                     label: 'Points',
                     data: data[playerValue]["ppg"],
-                    backgroundColor: 'rgba(255, 0, 255, .2)',
+                    backgroundColor: 'rgba(255, 0, 255, 0.7)',
                     borderColor: 'rgba(255, 0, 255, 1)',
                     borderWidth: 3
                 },
                 {
                     label: 'Assists',
                 data: data[playerValue]["apg"],
-                backgroundColor: 'rgba(0, 0, 255, 0.2)',
+                backgroundColor: 'rgba(0, 0, 255, 0.7)',
                 borderColor: 'rgba(0, 0, 255, 1)',
                 borderWidth: 3
                 },
                 {
                     label: 'Rebounds',
                 data: data[playerValue]["rpg"],
-                backgroundColor: 'rgba(99, 255, 132 , 0.2)',
+                backgroundColor: 'rgba(99, 255, 132 , 0.7)',
                 borderColor: 'rgba(99, 255, 132, 1)',
                 borderWidth: 3
                 },
                 {
                     label: 'Field Goals Made',
                 data: data[playerValue]["fgm"],
-                backgroundColor: 'rgba(255, 0, 0, 0.2)',
+                backgroundColor: 'rgba(255, 0, 0, 0.7)',
                 borderColor: 'rgba(255, 0, 0, 1)',
                 borderWidth: 3
                 },
                 {
                     label: 'Free Throws Made',
                 data: data[playerValue]["ftm"],
-                backgroundColor: 'rgba(255, 255, 255, 0.2)',
+                backgroundColor: 'rgba(255, 255, 255, 0.7)',
                 borderColor: 'rgba(255, 255, 255, 1)',
                 borderWidth: 3
                 },
                 ]  
             },
         options: {
-            scales: {
-                xAxes: [{
-                        display: true,
-                        labelString: 'Player'
-                }],
-                yAxes: [{
-                    ticks: {
-                        beginAtZero: true,
-                        stepValue: 10,
-                        max: 35,
+            plugins: {
+                legend: {
+                    labels: {
+                        color: "white"
                     }
-                }]
+                }
+            },
+            scales: {
+                x: {
+                        display: true,
+                        ticks:{
+                            color: "white"
+                        }
+                    },
+                y: {
+                    ticks: {
+                        display: true,
+                        color: "white",
+                        beginAtZero: true,
+                        max: 40,
+                        fontFamily: 'sans-serif',
+                        fontSize: 50,
+                        fontStyle: 'bold',
+                    }
+                }
             }
         }
     })
