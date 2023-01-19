@@ -46,7 +46,9 @@ header .right-header {
 
 .icon-player {
   display: grid;
-  grid-template-columns: 150px 150px;
+  grid-template-rows: repeat(2, 150px);
+  grid-template-columns: repeat(5, 150px);
+  justify-content: center;
   margin: 0px;
 }
 

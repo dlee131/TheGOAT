@@ -85,42 +85,42 @@ playerNames.forEach(playerName => {
                 labels: [playerValue],
                 datasets: [
                     {
-                        label: 'Minutes Per Game',
+                        label: 'Minutes',
                     data: data[playerValue]["mpg"],
                     backgroundColor: 'rgba(255, 165, 0, 0.2)',
                     borderColor: 'rgba(255, 165, 0, 1)',
                     borderWidth: 3
                     },
                     {
-                    label: 'Points Per Game',
+                    label: 'Points',
                     data: data[playerValue]["ppg"],
                     backgroundColor: 'rgba(255, 0, 255, .2)',
                     borderColor: 'rgba(255, 0, 255, 1)',
                     borderWidth: 3
                 },
                 {
-                    label: 'Assists Per Game',
+                    label: 'Assists',
                 data: data[playerValue]["apg"],
                 backgroundColor: 'rgba(0, 0, 255, 0.2)',
                 borderColor: 'rgba(0, 0, 255, 1)',
                 borderWidth: 3
                 },
                 {
-                    label: 'Rebounds Per Game',
+                    label: 'Rebounds',
                 data: data[playerValue]["rpg"],
                 backgroundColor: 'rgba(99, 255, 132 , 0.2)',
                 borderColor: 'rgba(99, 255, 132, 1)',
                 borderWidth: 3
                 },
                 {
-                    label: 'Field Goals Made Per Game',
+                    label: 'Field Goals Made',
                 data: data[playerValue]["fgm"],
                 backgroundColor: 'rgba(255, 0, 0, 0.2)',
                 borderColor: 'rgba(255, 0, 0, 1)',
                 borderWidth: 3
                 },
                 {
-                    label: 'Free Throws Made Per Game',
+                    label: 'Free Throws Made',
                 data: data[playerValue]["ftm"],
                 backgroundColor: 'rgba(255, 255, 255, 0.2)',
                 borderColor: 'rgba(255, 255, 255, 1)',
