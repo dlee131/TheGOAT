@@ -75,8 +75,7 @@ playerNames.forEach(playerName => {
     .then(data => {
         
         var context = document.getElementById("PlayerChart");
-       
-       let chartStatus = Chart.getChart("PlayerChart")
+        let chartStatus = Chart.getChart("PlayerChart")
         if (chartStatus != undefined) {
             chartStatus.destroy()
         }
@@ -155,9 +154,9 @@ playerNames.forEach(playerName => {
                         color: "white",
                         beginAtZero: true,
                         max: 40,
-                        fontFamily: 'sans-serif',
-                        fontSize: 50,
-                        fontStyle: 'bold',
+                        // fontFamily: 'sans-serif',
+                        // fontSize: 50,
+                        // fontStyle: 'bold',
                     }
                 }
             }

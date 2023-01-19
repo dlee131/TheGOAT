@@ -61,6 +61,7 @@ header .right-header{
     display: flex;
     flex-direction: column;
     align-items: left;
+    white-space: nowrap;
 }
 
 .player-image-right {
@@ -82,7 +83,7 @@ header .right-header{
     width: 100px;
     border-radius: 50px;
     transition: all 0.3s ease;
-    margin: 20px;
+    margin: 15px;
 }
 
 .hide {
