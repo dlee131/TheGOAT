@@ -54,7 +54,7 @@ In **The GOAT**, users will be able to :
 
 ## Live 
 
-See the app live! [here](http://127.0.0.1:5500/index.html)!
+See the app live! [here](https://dlee131.github.io/TheGOAT/)!
 
 
 
