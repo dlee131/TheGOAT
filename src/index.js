@@ -57,14 +57,19 @@ import Chart from 'chart.js/auto';
 // document.querySelector("#player")
 Chart.defaults.font.size = 18;
 Chart.defaults.font.family = "Bradley Hand"
-
+// Chart.defaults.font.weight = "undefined"
 let playerNames = document.querySelectorAll(".player-name");
 playerNames.forEach(playerName => {
     playerName.addEventListener('click', function() {
-
+    // if (!event.target.matches('#option1')) return;
+    // event.preventDefault(); 
 
     let playerValue = this.dataset.value;
-
+    // console.log(playerValue);
+    // let playerData = data["playerName"];
+    // console.log(playerName)
+    // myChart.data.datasets[0].data = playerData["apg"];
+    // myChart.update();
     fetch('./players.json')
     .then((response) => response.json())
     .then(data => {
@@ -75,7 +80,6 @@ playerNames.forEach(playerName => {
             chartStatus.destroy()
         }
         var CareerChart = new Chart(context, {
-
             type: 'bar',
             data: {
                 labels: [playerValue],
