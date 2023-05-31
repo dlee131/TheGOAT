@@ -61,15 +61,10 @@ Chart.defaults.font.family = "Bradley Hand"
 let playerNames = document.querySelectorAll(".player-name");
 playerNames.forEach(playerName => {
     playerName.addEventListener('click', function() {
-    // if (!event.target.matches('#option1')) return;
-    // event.preventDefault(); 
+
 
     let playerValue = this.dataset.value;
-    // console.log(playerValue);
-    // let playerData = data["playerName"];
-    // console.log(playerName)
-    // myChart.data.datasets[0].data = playerData["apg"];
-    // myChart.update();
+
     fetch('./players.json')
     .then((response) => response.json())
     .then(data => {
